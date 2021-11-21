@@ -1,0 +1,37 @@
+div.gallery {
+    border-radius: 30%;
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 310px;
+    
+}
+body{
+    background: linear-gradient(45deg,rgb(60, 62, 116),rgb(38, 189, 144),rgb(86, 139, 86));
+}
+h1{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 55px;
+}
+div.main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction:row;
+}
+  
+  div.gallery:hover {
+      
+    
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    border-radius: 30%;
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
